@@ -1,0 +1,268 @@
+/* chathura kavindu Assessment style css file */
+
+:root{
+    --gaps:30px;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+.nav-bar{
+    display: flex;
+    margin-top: 32px;
+    align-items: center;
+
+}
+
+.nav-bar a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    transition: font-size, .2s;
+}
+.menu{
+    margin-left: var(--gaps);
+    flex-grow: 1;
+    
+
+    
+}
+.menu>ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    
+}
+
+.menu>ul li{
+    display: inline-block;  
+}
+.menu>ul li a:hover{
+    color: #7C6A46;
+    font-size: 18px;
+    transition: .2s;
+}
+.menu>ul li a{
+    color: black;
+}
+
+.primary-btn{ 
+    border-radius: 5px;
+    border: none;
+    padding: 12px 37px;
+    background-color: #7C6A46;
+    color: white;
+    margin-left: var(--gaps);
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.primary-btn:hover{
+    background-color: red;
+}
+.hero-wrapper{
+    position: relative;
+    top: 35px;
+    height: 700px;
+}
+.hero-wrapper>.content{
+    position: absolute;
+    top: 20px;
+}
+.hero-img{
+    float: right;
+}
+
+
+.paradise{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    color: #7C6A46;
+}
+
+.hero-text{
+    margin-top: -20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+}
+
+.hero-tag{
+    margin-top: -20px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    
+}
+
+.book-now-btn{
+    border-radius: 50px;
+    border: none;
+    padding: 15px 35px;
+    background-color: #7C6A46;
+    color: white;
+    cursor: pointer;
+    font-family: 'inter';
+    font-size: 20px;
+    margin-top: 15px;
+}
+.book-now-btn:hover{
+    background-color: red;
+}
+
+.facilities-wrapper{
+    position: relative;
+    top: 60px;
+}
+.our-facilities{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.facilities-dis{
+    margin-top: -25px;
+    text-align: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.facilities-row{
+    margin-top: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.swimming-pool{
+    padding: 30px;
+    width: 15%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 5px grey;
+}
+.swimming-pool:hover{
+    box-shadow: 0 0 10px #7C6A46;
+}
+
+.swimming-pool h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #7C6A46;
+}
+
+#Luxurious-Rooms{
+    background-image: url("https://goldceylon.lk/wp-content/uploads/2023/08/bg-ing.png");
+    height: fit-content;
+    padding-bottom: 30px;
+}
+
+.luxurious-wrapper{
+    position: relative;
+    top: 40px;
+}
+
+hr{
+    border: 3.5px solid white;
+    width: 12%;
+    margin-top: 7px;
+
+}
+
+.luxurious-wrapper h4{
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+.luxurious-wrapper p{
+    margin-top: -50px;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.luxurious-row{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.room-box{
+    background-color: white;
+    border-radius: 10px;
+    padding: 22px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.room-box:hover{
+    box-shadow: 0 0 15px #2d2412;
+}
+
+.room-box p{
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    
+}
+
+.rooms-btn{
+    position: absolute;
+    border-radius: 3px;
+    background-color: #7C6A46;
+    color: white;
+    font-size: 13px;
+    padding: 10px 7px;
+    border: 0px;
+    margin: 10px;
+    font-weight: 500;
+}
+.table{
+    display: flex;
+    /* flex-wrap: wrap;
+    flex-direction: column; */
+    align-items: center;
+    
+}
+
+.table h4{
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    text-align: center;
+    font-weight: 400;
+}
+
+table{
+    border: 1px #7C6A46;
+    width: 100%;
+    margin-top: 40px;
+    
+}
+th {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid black;
+    font-size: 30px;
+    background-color: #7C6A46;
+    color: white;
+}
+
+td{
+    
+    padding: 15px;
+    border: 1px solid black;
+    font-size:20px;
+}
